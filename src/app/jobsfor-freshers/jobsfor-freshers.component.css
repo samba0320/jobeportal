@@ -1,0 +1,133 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.section2{
+    background: #f1f1f1;
+}
+.title{
+    position: relative;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    padding-top: 2rem;
+}
+.title h2{
+    font-size: 25px;
+    color: #333;
+    line-height: 22px;
+    font-weight: 400;
+    margin-bottom: 5px;
+} 
+.title h2 span{
+    font-weight: 500;
+    color: #000;
+}
+.title::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    width: 77px;
+    background: #95b2f5;
+    transform: translate(-50%);
+}
+.viewalljobs{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -7px;
+    margin-right: -7px
+}
+.alljobs{
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 0 7px;
+    margin-bottom: 15px;
+}
+.sjci {
+    background: rgba(255,255,255,0.70);
+    border: 1px solid #e8edf3;
+    border-radius: 5px;
+    padding: 15px;
+    position: relative;
+    box-shadow: 2px 4px 5px -3px #d3e2ef;
+    font-family: 'Roboto',sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.sjci .sjci-heading {
+    margin-bottom: 10px;
+    max-width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.sjci-heading .job-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #005a9d;
+    line-height: 20px;
+    transition: all 0.3s ease;
+}
+.sjci-heading .job-cname {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #222;
+    transition: all 0.3s ease;
+    margin-top: 4px;
+}
+.job-c-logo {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    line-height: 0;
+    background: #fff;
+}
+.job-c-logo span {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+}
+.sjci-need {
+    display: flex;
+    box-sizing: border-box;
+    width: calc(100% - 70px);
+    min-height: 20px;
+}
+.sjci-need > li:nth-child(1) {
+    font-size: 12.6px;
+    color: #666;
+    width: 100px;
+}
+.sjci-need > li {
+    display: flex;
+    align-items: center;
+}
+.sjci-skils {
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #333;
+    line-height: 18px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 45px;
+}
+.sjci-need > li:nth-child(1) {
+    font-size: 12.6px;
+    color: #666;
+    width: 100px;
+}
+.sjci-need > li {
+    display: flex;
+    align-items: center;
+}   
