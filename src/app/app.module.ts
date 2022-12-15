@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RecruitmentSolutionComponent } from './recruitment-solution/recruitment-solution.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RecruitmentSolutionComponent
+    RecruitmentSolutionComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
