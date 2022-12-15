@@ -1,0 +1,56 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.recruitment-solution{
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 100vh;
+    padding-top: 5rem;
+}
+.recruitment-container{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 2.5rem;
+}
+.recruitment-container h4{
+    font-weight: 400;
+    font-size: 20px;
+}
+.heading-line{
+    background-color: #95b2f5;
+    height: 3px;
+    width: 70px;
+    position: relative;
+    left: 47%;
+}
+.recruitment-catagery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 88%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 3.5rem;
+}
+.services{
+    border: 1px solid #ddd;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 10px 7px 4px 7px;
+}
+.services p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    background: #eee;
+    padding: 7px;
+    margin-top: 7px;
+    margin-bottom: 1px;
+}
+.icon_service {
+    background: url(https://static.placementindia.com/images/placement_services_icon.png) no-repeat;
+    height: 60px;
+    width: 75px;
+    display: inline-block;
+}
