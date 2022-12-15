@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.placement img {
+    margin-left: 25px;
+}
+
+.nav {
+    display: flex;
+    background-color: #efefef;
+    padding: 7px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+ul li {
+    list-style: none;
+    /* padding-left: 40px; */
+    font-weight: 500;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+li i {
+    font-size: 10px;
+    margin-left: 5px;
+    color: #666;
+}
+
+.fa-angle-down {
+    margin-top: 3px;
+}
+
+ul {
+    display: flex;
+    margin-top: 10px;
+}
+
+.for {
+    margin-left: 15%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.for img {
+    width: 20px;
+    height: 20px;
+}
+
+.login {
+    margin-left: 20px;
+    text-decoration: none;
+    border: 1px solid #4374ff;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+.post {
+    text-decoration: none;
+    color: #fff;
+    background: #4374ff;
+    padding: 7px;
+    border: 1.5px solid #4374ff;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.resume {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.list {
+    color: #228ecd;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 7px;
+}
+
+.list i {
+    color: #228ecd;
+}
+
+.job {
+    text-decoration: none;
+    color: black;
+    background-color: #fceb42;
+    border: 1px solid #e1b70c;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 7px;
+    margin-left: 25px;
+    margin-top: 4px;
+    height: 35px;
+    width: 105px;
+}
+
+.free {
+    color: red;
+    margin-left: 5px;
+}
+
+.drop {
+    position: absolute;
+    margin-top: 10px;
+}
+
+.drop a {
+    display: none;
+    text-decoration: none;
+}
+
+li:hover a {
+    display: grid;
+    font-size: 14px;
+    color: #666;
+    background: #fff;
+    line-height: 1.7;
+    padding: 5px;
+    margin-left: -8px;
+}
+.in{
+    padding: 50px 0;
+    background: #fff url(https://static.placementindia.com/images/pi-search-bg.jpg);
+    font-family: 'Poppins',sans-serif;
+    border-bottom: 1px solid #ddd;
+    margin-top: 55px;
+}
+.form{
+    background: #fff;
+    width: 36%;
+    padding: 60px;
+    margin-left: 33%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #e7e7e7;
+}
+.button{
+    display: block;
+    width: 50%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 2px;
+    background: #3c6bf1;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px;
+}
+.example-full-width input{
+    outline: none;
+    border: none;
+}
+.example-full-width {
+    width: 50%;
+  }
