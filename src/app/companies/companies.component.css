@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+}
+.col1{
+    display: flex;
+    margin-left: 13%;
+}
+.jobkey{
+    border: 2px solid   white;
+    width: 173px;
+    height: 147px;
+    text-align: center;
+    margin: 10px;
+    box-shadow:     -2px 10px 22px -16px #000;
+    ;
+}
+.jobkey img{
+    width: 100px;
+    height: 65px;
+}
+.p{
+    font-size: 15px;
+    color: blue;
+}
+.pp{
+    font-size: 12px;
+}
+
+.col2{
+    display: flex;
+    margin-left: 13%;
+}
+.hr{
+    border: 2px solid   white;
+    width: 173px;
+    height: 147px;
+    text-align: center;
+    margin: 10px;
+    box-shadow:     -2px 10px 22px -16px #000;
+}
+.hr img{
+    width: 100px;
+    height: 65px;  
+}
+.p1{
+color: blue;
+font-size: 12px;
+}
+.pp1{
+font-size: 15px;
+}
+.col3{
+    display: flex;
+    margin-left: 13%;
+}
+.power{
+    border: 2px solid   white;
+    width: 173px;
+    height: 147px;
+    text-align: center;
+    margin: 10px;
+    box-shadow:     -2px 10px 22px -16px #000;
+}
+.power img{
+    width: 100px;
+    height: 65px;   
+}
+.col4{
+    display: flex;
+    margin-left: 13%;
+}
+.edge{
+    border: 2px solid   white;
+    width: 173px;
+    height: 147px;
+    text-align: center;
+    margin: 10px;
+    box-shadow:     -2px 10px 22px -16px #000;
+}
+.edge img{
+    width: 100px;
+    height: 65px;   
+}
+.col5{
+    display:flex;
+    margin-left: 33%;
+}
+.args{
+    border: 2px solid   white;
+    width: 173px;
+    height: 147px;
+    text-align: center;
+    margin: 10px;
+    box-shadow:     -2px 10px 22px -16px #000; 
+}
+.args img{
+    width: 100px;
+    height: 65px;  
+}
+
