@@ -10,6 +10,8 @@ export class JobsforFreshersComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-  }
 
+  
+  }
+  
 }
