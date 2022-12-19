@@ -1,0 +1,115 @@
+.container1{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 150px;
+    background-color: #f1f1f1;
+    height: 350px;
+    padding-top: 42px;
+    /* border-bottom: 2px solid #95b2f5; */
+    
+}
+/* skill-list */
+.skill-list{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1150px;
+    margin-left: 200px;
+   
+}
+
+.skill-list h4{
+    background: #fff;
+   height: 30px;
+   width: 210px;
+   border-radius: 15px;
+   padding-top: 3px;
+   opacity: 0.8;
+}
+.skill-list h4:hover{
+  background: #247fc7;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+/* skill-list2 */
+
+.skill-list2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1150px;
+    margin-left: 200px;
+   
+}
+
+.skill-list2 h4{
+    background: #fff;
+   height: 30px;
+   width: 200px;
+   border-radius: 15px;
+   padding-top: 3px;
+   opacity: 0.8;
+}
+.skill-list2 h4:hover{
+  background: #247fc7;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* skill-list3 */
+
+.skill-list3{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1150px;
+    margin-left: 200px;
+   
+}
+
+.skill-list3 h4{
+    background: #fff;
+   height: 30px;
+   width: 200px;
+   border-radius: 15px;
+   padding-top: 3px;
+   opacity: 0.8;
+}
+.skill-list3 h4:hover{
+  background: #247fc7;
+    color: #fff;
+    cursor: pointer;
+}
+
+.skill-list4{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1150px;
+    margin-left: 200px;
+   
+}
+
+.skill-list4 h4{
+    background: #fff;
+   height: 30px;
+   width: 200px;
+   border-radius: 15px;
+   padding-top: 3px;
+   opacity: 0.8;
+}
+.skill-list4 h4:hover{
+  background: #247fc7;
+    color: #fff;
+    cursor: pointer;
+}
+
+.skill-list a{
+    color: black;
+  text-decoration: none;
+}
